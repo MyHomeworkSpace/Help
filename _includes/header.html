@@ -1,7 +1,7 @@
 <p class="lead">Guides</p>
 <ul>
 	{% for p in site.pages %}
-		{% if p.categories contains "guides" %}
+		{% if p.categories contains "guide" %}
 			<li><a href="/APIDocs{{p.url}}">{{p.title}}</a></li>
 		{% endif %}
 	{% endfor %}
