@@ -9,6 +9,12 @@
 		.col-md-2 {
 			padding-left: 25px;
 		}
+		.lead {
+			margin-bottom: 10px;
+		}
+		.title {
+			margin-top: 0;
+		}
 		</style>
 	</head>
 	<body>
@@ -36,7 +42,7 @@
 				{% include header.html %}
 			</div>
 			<div class="col-md-10">
-				<h1>{{ page.title }}</h1>
+				<h1 class="title">{{ page.title }}</h1>
 				<article id="content">
 					{{ content }}
 				</article>
