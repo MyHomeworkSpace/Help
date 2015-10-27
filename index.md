@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: layout
 ---
 
 Welcome to the documentation for the PlanHub API!
