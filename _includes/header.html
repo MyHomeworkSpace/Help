@@ -1,9 +1,17 @@
 <p class="lead">Guides</p>
 <ul>
-
+	{% for p in site.pages %}
+		{% if p.categories contains "guides" %}
+			<li><a href="{{p.url}}">{{p.title}}</a></li>
+		{% endif %}
+	{% endfor %}
 </ul>
 
-<p class="lead">Pages</p>
+<p class="lead">API calls</p>
 <ul>
-	
+	{% for p in site.pages %}
+		{% if p.categories contains "apiv1" %}
+			<li><a href="{{p.url}}">{{p.title}}</a></li>
+		{% endif %}
+	{% endfor %}
 </ul>
