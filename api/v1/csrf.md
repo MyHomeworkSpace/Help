@@ -8,6 +8,7 @@ Use this to get a nonce, which then can be used for making another API request.
 
 ### Returns
 A JSON object with the following properties:
+
 * status - "ok" if the operation was successful, or "error" if there was a problem.
 * version - always "1".
 * nonce - a nonce, associated with the current session.
@@ -15,8 +16,8 @@ A JSON object with the following properties:
 ### Example response
 {% highlight javascript %}
 {
-	"status":"ok",
-	"version":"1",
-	"nonce":"ae74b93dd7dfc59190594d2780b86d47"
+	"status": "ok",
+	"version": "1",
+	"nonce": "ae74b93dd7dfc59190594d2780b86d47"
 }
 {% endhighlight %}
