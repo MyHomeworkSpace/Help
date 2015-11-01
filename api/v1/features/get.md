@@ -1,10 +1,10 @@
 ---
-title: /api/v1/csrf
+title: /api/v1/features/get
 layout: layout
 categories: [ apiv1 ]
 ---
 
-Use this to get a nonce, which then can be used for making another API request.
+Gets a list of features enabled on the account.
 
 ### Parameters
 None.
@@ -13,14 +13,12 @@ None.
 A JSON object with the following properties:
 
 * status - "ok" if the operation was successful, or "error" if there was a problem.
-* version - always "1".
-* nonce - a nonce, associated with the current session.
+* features - an array containing a list of features enabled on the account.
 
 ### Example response
 {% highlight javascript %}
 {
 	"status": "ok",
-	"version": "1",
-	"nonce": "ae74b93dd7dfc59190594d2780b86d47"
+	"features": [ "planner","hwView" ]
 }
 {% endhighlight %}
