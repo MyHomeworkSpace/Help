@@ -19,6 +19,6 @@ A JSON object with the following properties:
 {% highlight javascript %}
 {
 	"status": "ok",
-	"features": [ "planner","hwView" ]
+	"features": [ "planner", "hwView" ]
 }
 {% endhighlight %}
