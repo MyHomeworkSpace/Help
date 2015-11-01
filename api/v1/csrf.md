@@ -4,7 +4,7 @@ layout: layout
 categories: [ apiv1 ]
 ---
 
-Use this to get a nonce.
+Use this to get a nonce, which then can be used for making another API request.
 
 ### Returns
 A JSON object with the following properties:
@@ -12,11 +12,9 @@ A JSON object with the following properties:
 * version - always "1".
 * nonce - a nonce, associated with the current session.
 
-### Example
-```
-{
-	"status":"ok",
-	"version":"1",
-	"nonce":"ae74b93dd7dfc59190594d2780b86d47"
-}
-```
+### Example response
+	{
+		"status":"ok",
+		"version":"1",
+		"nonce":"ae74b93dd7dfc59190594d2780b86d47"
+	}
