@@ -13,8 +13,10 @@ A JSON object with the following properties:
 * nonce - a nonce, associated with the current session.
 
 ### Example response
-	{
-		"status":"ok",
-		"version":"1",
-		"nonce":"ae74b93dd7dfc59190594d2780b86d47"
-	}
+{% highlight javascript %}
+{
+	"status":"ok",
+	"version":"1",
+	"nonce":"ae74b93dd7dfc59190594d2780b86d47"
+}
+{% endhighlight %}
