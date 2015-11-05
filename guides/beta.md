@@ -14,5 +14,5 @@ setPage("PageName")
 {% endhighlight %}
 into the console replacing "Page Name" with the name of the page you are trying to access. Example:
 {% highlight javascript %}
-setPsage("myDay")
+setPage("myDay")
 {% endhighlight %}
