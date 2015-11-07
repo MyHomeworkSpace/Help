@@ -1,7 +1,7 @@
 <p><a href="http://www.planhub.me" target="_blank">Go to PlanHub.Me <i class="fa fa-external-link"></i></a>
 <p class="lead">Guides</p>
 <ul>
-	{% for p in site.pages %}{% if p.categories contains "guide" %}<li><a href="/guide{{p.url}}">{{p.title}}</a></li>{% endif %}{% endfor %}
+	{% for p in site.pages %}{% if p.categories contains "guide" %}<li><a href="{{p.url}}">{{p.title}}</a></li>{% endif %}{% endfor %}
 </ul>
 
 <p class="lead">FAQs</p>
