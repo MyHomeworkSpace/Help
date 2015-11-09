@@ -21,6 +21,6 @@ The PlanHub Planner comes with several color-coded tags. To use a tag, type it i
 * ICA (Light Blue)
 * Lab (Light Green)
 * DocID (Dark Blue)
-* <span style="color: rgba(255,255,255,0)"> hexey.hex(u);;;;;</span>
+* <span style="color: rgba(255,255,255,0)"> ey.hex(u);;;;;</span>
 
 These colors correspond to the colors on the Courses calendar.
