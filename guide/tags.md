@@ -13,6 +13,7 @@ The PlanHub Planner comes with several color-coded tags. To use a tag, type it i
 * Report
 * Essay
 * Paper
+* Quiz
 * Test
 * Final
 * Exam
