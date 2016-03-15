@@ -1,2 +1,2 @@
-# APIDocs
-Documentation for the PlanHub API.
+# Help
+Get Help with MyHomeworkSpace.
